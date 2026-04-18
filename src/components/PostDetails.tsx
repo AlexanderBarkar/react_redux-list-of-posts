@@ -108,7 +108,7 @@ export const PostDetails: React.FC<Props> = ({ post }) => {
           </>
         )}
 
-        {/* 🔥 ВАЖНО: кнопка должна быть просто когда loaded + !hasError */}
+        {/*  кнопка когда loaded + !hasError */}
         {loaded && !hasError && !visible && (
           <button
             data-cy="WriteCommentButton"

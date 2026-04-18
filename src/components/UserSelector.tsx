@@ -13,7 +13,6 @@ export const UserSelector: React.FC<Props> = ({
   value: selectedUser,
   onChange,
 }) => {
-  // ✅ ВАЖНО: берём users.items (как в Redux slice)
   const users = useAppSelector(state => state.users.items);
 
   const [expanded, setExpanded] = useState(false);

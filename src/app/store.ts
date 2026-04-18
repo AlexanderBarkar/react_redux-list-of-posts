@@ -12,7 +12,7 @@ export const store = configureStore({
     author: authorReducer,
     posts: postsReducer,
     selectedPost: selectedPostReducer,
-    comments: commentsReducer, // 🔥 ВОТ ЭТОГО НЕ ХВАТАЛО
+    comments: commentsReducer,
   },
 });
 

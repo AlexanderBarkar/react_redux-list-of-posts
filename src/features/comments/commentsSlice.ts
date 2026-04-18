@@ -33,7 +33,6 @@ const commentsSlice = createSlice({
       state.items = state.items.filter(c => c.id !== action.payload);
     },
 
-    // ❌ НЕТ setComments / setCommentsLoading / setCommentsError
   },
 
   extraReducers: builder => {
